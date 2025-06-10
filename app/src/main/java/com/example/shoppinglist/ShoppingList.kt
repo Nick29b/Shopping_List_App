@@ -184,10 +184,7 @@ fun ShoppingItemEditor(item : ShoppingItem, onEditComplete: (String, Int) -> Uni
     Row(modifier =
         Modifier.padding(16.dp)
             .fillMaxWidth()
-            .border(
-                BorderStroke(2.dp, Color(0XFF018786))
-                ,shape = RoundedCornerShape(20)
-            ),
+            .background(color = Color.White),
             horizontalArrangement = Arrangement.SpaceEvenly){
         Column{
             BasicTextField(
